@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"
+      integrity="sha512-4P0ZJ49OMXe3jXT+EsEaq82eNwFeyYL81LeHGzGcEhowFbTqeQ80q+NEkgsE8tHPs6aCqvi7U+XWliAjDmT5Lg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.js"
+      integrity="sha512-U2sgwrFhl+Tgx9iGH9h5Ba2WyIjyCes+D0prtIFw3a0V+/fkaeL5Cd/VjyPHno9kUPE1rnNhBGTyvtZsfJp0xg=="
+      crossorigin="anonymous"
+    ></script>
+    <title>Strawberry Lover</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body id="body">
+    <div class="header">
+        <div id="setbtn"></div>
+        <h2>Strawberry Lover</h2>
+        <div id="rankbtn"></div>
+        <!-- <div id="gglbtn">
+            <div>Log in to save your score.</div>
+        </div> -->
+        <div id="darkMode"></div>
+    </div>
+    <!-- <canvas class="display" width="1280" height="480"></canvas> -->
+
+    <div id="endingPanel">
+        <div class="endingPopup">
+            <div id="endingClose">X</div>
+            <div class="resultTable">
+                <input id="nickname" placeholder="NICKNAME" autocapitalize="characters">
+                <div class="finalScore">
+                    <p>MY SCORE</p>
+                    <div id="fScore">20</div>
+                </div>
+                <div class="highScore">
+                    <p>MY HIGHSCORE</p>
+                    <div id="mHigh">34</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="settings">
+        <div class="setting">
+            <p>Volume</p>
+            <input type="slider">
+        </div>
+    </div>
+    <div id="ranking">
+        <h4>Ranking</h4>
+        <ol>
+            <li class="me">Hoyeon <b>36</b></li>
+            <li>Hyerim <b>29</b></li>
+            <li>Seokmin <b>22</b></li>
+            <li>Seokmin <b>22</b></li>
+            <li>Seokmin <b>22</b></li>
+            <li>Seokmin <b>22</b></li>
+            <li>Seokmin <b>22</b></li>
+            <li>Seokmin <b>22</b></li>
+            <li>Seokmin <b>22</b></li>
+            <li>Seokmin <b>22</b></li>
+        </ol>
+    </div> 
+    <script defer type="module" src="./mygame.js"></script>
+</body>
+</html>
